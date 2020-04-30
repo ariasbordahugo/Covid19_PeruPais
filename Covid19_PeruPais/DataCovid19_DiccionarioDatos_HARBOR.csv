@@ -1,0 +1,38 @@
+,Fecha,,Fecha del registro
+Tabla,Campo,TipoDeDato,Descripcion
+DataCovid19Peru_HARBOR,N_Dia,Datetime,Dia desde que se inicia la pandemia en Peru
+DataCovid19Peru_HARBOR,PoblacionPeru,Numerico,Poblacion de Peru en 2020 (https://larepublica.pe/sociedad/2019/07/12/inei-peru-tiene-mas-de-32-millones-de-habitantes-y-al-2021-seremos-33-millones/)
+DataCovid19Peru_HARBOR,MuestrasTotal,Numerico,Calcula [ MuestrasMolecular + MuestrasPruebaRapida ]
+DataCovid19Peru_HARBOR,PositivosTotal,Numerico,Calcula [ PositivosMolecular + PositivosPruebaRapida ]
+DataCovid19Peru_HARBOR,NegativosTotal,Numerico,Calcula [ NegativosMolecular + NegativosPruebaRapida ]
+DataCovid19Peru_HARBOR,MuestrasMolecular,Numerico,Numero de pruebas moleculares muestreadas
+DataCovid19Peru_HARBOR,PositivosMolecular,Numerico,Numero de pruebas moleculares que resultaron positivas
+DataCovid19Peru_HARBOR,NegativoMolecular,Numerico,Numero de pruebas moleculares que resultaron negativas
+DataCovid19Peru_HARBOR,MuestrasPruebaRapida,Numerico,Numero de pruebas rapidas muestreadas
+DataCovid19Peru_HARBOR,PositivosPruebaRapida,Numerico,Numero de pruebas rapidas que resultaron positivas
+DataCovid19Peru_HARBOR,NegativosPruebaRapida,Numerico,Numero de pruebas rapidas que resultaron negativas
+DataCovid19Peru_HARBOR,Hospitalizados,Numerico,Numero de pacientes hospitalizados
+DataCovid19Peru_HARBOR,UCI,Numerico,Numero de pacientes hospitalizados en camas UCI
+DataCovid19Peru_HARBOR,VentiladorMecanico,Numerico,Numero de pacientes hospitalizados en camas UCI con ventilador mecanico
+DataCovid19Peru_HARBOR,Decesos,Numerico,Numero de personas fallecidas
+DataCovid19Peru_HARBOR,Recuperados,Numerico,Numero de personas dadas de alta
+DataCovid19Peru_HARBOR,Activos,Numerico,Calcula [ PositivosTotal - ( Decesos + Recuperados) ]
+DataCovid19Peru_HARBOR,Cerrados,Numerico,Calcula [ Decesos + Recuperados ]
+DataCovid19Peru_HARBOR,MuestrasTotalNuevos,Numerico,Calcula [ MuestrasTotal - MuestrasTotal (del dia anterior) ]
+DataCovid19Peru_HARBOR,PositivosTotalNuevos,Numerico,Calcula [ PositivosTotal - PositivosTotal (del dia anterior) ]
+DataCovid19Peru_HARBOR,NegativosTotalNuevos,Numerico,Calcula [ NegativosTotal - NegativosTotal (del dia anterior) ]
+DataCovid19Peru_HARBOR,MuestrasMolecularNuevos,Numerico,Calcula [ MuestrasMolecular - MuestrasMolecular (del dia anterior) ]
+DataCovid19Peru_HARBOR,PositivosMolecularNuevos,Numerico,Calcula [ PositivosMolecular - PositivosMolecular (del dia anterior) ]
+DataCovid19Peru_HARBOR,NegativoMolecularNuevos,Numerico,Calcula [ NegativosMolecular - NegativosMolecular (del dia anterior) ]
+DataCovid19Peru_HARBOR,MuestrasPruebaRapidaNuevos,Numerico,Calcula [ MuestrasPruebaRapida - MuestrasPruebaRapida (del dia anterior) ]
+DataCovid19Peru_HARBOR,PositivosPruebaRapidaNuevos,Numerico,Calcula [ PositivosPruebaRapida - PositivosPruebaRapida (del dia anterior) ]
+DataCovid19Peru_HARBOR,NegativosPruebaRapidaNuevos,Numerico,Calcula [ NegativosPruebaRapida - NegativosPruebaRapida (del dia anterior) ]
+DataCovid19Peru_HARBOR,HospitalizadosNuevos,Numerico,Calcula [ Hospitalizados - Hospitalizados (del dia anterior) ]
+DataCovid19Peru_HARBOR,UCINuevos,Numerico,Calcula [ UCI - UCI (del dia anterior) ]
+DataCovid19Peru_HARBOR,VentiladorMecanicoNuevos,Numerico,Calcula [ VentiladorMecanico - VentiladorMecanico (del dia anterior) ]
+DataCovid19Peru_HARBOR,DecesosNuevos,Numerico,Calcula [ Decesos - Decesos (del dia anterior) ]
+DataCovid19Peru_HARBOR,RecuperadosNuevos,Numerico,Calcula [ Recuperdos - Recuperados (del dia anterior) ]
+DataCovid19Peru_HARBOR,ActivosNuevos,Numerico,Calcula [ Activos - Activos (del dia anterior) ]
+DataCovid19Peru_HARBOR,CerradosNuevoa,Numerico,Calcula [ Cerrados - Cerrados (del dia anterior) ]
+DataCovid19Peru_HARBOR,N_Ventiladores,Numerico,Numero de ventiladores que cuenta el sistema conforme se va tomando la data de las noticias del pais
+DataCovid19Peru_HARBOR,Observaciones,Caracter,Puntos de referencia a tomar
