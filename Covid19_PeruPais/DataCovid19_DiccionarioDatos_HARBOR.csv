@@ -1,6 +1,6 @@
+,Fecha,,Fecha del registro
 Tabla,Campo,TipoDeDato,Descripcion
-DataCovid19Peru_HARBOR,Fecha,Datetime,Fecha del registro
-DataCovid19Peru_HARBOR,N_Dia,Numerico,Dia desde que se inicia la pandemia en Peru
+DataCovid19Peru_HARBOR,N_Dia,Datetime,Dia desde que se inicia la pandemia en Peru
 DataCovid19Peru_HARBOR,PoblacionPeru,Numerico,Poblacion de Peru en 2020 (https://larepublica.pe/sociedad/2019/07/12/inei-peru-tiene-mas-de-32-millones-de-habitantes-y-al-2021-seremos-33-millones/)
 DataCovid19Peru_HARBOR,MuestrasTotal,Numerico,Calcula [ MuestrasMolecular + MuestrasPruebaRapida ]
 DataCovid19Peru_HARBOR,PositivosTotal,Numerico,Calcula [ PositivosMolecular + PositivosPruebaRapida ]
