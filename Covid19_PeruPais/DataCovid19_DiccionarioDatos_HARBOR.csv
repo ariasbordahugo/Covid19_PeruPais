@@ -39,7 +39,7 @@ DataCovid19Peru_HARBOR,Observaciones,Caracter,Puntos de referencia a tomar
 DataCovid19Regiones_HARBOR,Fecha,Datetime,Fecha del registro
 DataCovid19Regiones_HARBOR,RegionPeru,Caracter,Region del Peru
 DataCovid19Regiones_HARBOR,Positivos,Numerico,Numero de pruebas totales que resultaron positivas
-DataCovid19Regiones_HARBOR,PositivoDiaAnt,Numerico,Numero de pruebas totales que resultaron positivas (dia anterior)
+DataCovid19Regiones_HARBOR,PositivosDiaAnt,Numerico,Numero de pruebas totales que resultaron positivas (dia anterior)
 DataCovid19Regiones_HARBOR,PositivosNuevos,Numerico,Calcula [ Positivos - PositivoDiaAnt ]
 DataCovid19Regiones_HARBOR,Decesos,Numerico,Numero de decesos
 DataCovid19Regiones_HARBOR,DecesosDiaAnt,Numerico,Numero de decesos (dia anterior)
