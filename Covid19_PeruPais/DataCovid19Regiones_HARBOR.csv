@@ -1,4 +1,4 @@
-Fecha,DiaRegion,SemanaRegion,RegionPeru,Positivos,PositivoDiaAnt,PositivosNuevos,Decesos,DecesosDiaAnt,DecesosNuevos,Observaciones
+Fecha,DiaRegion,SemanaRegion,RegionPeru,Positivos,PositivosDiaAnt,PositivosNuevos,Decesos,DecesosDiaAnt,DecesosNuevos,Observaciones
 6/03/2020,1,1,Lima,1,0,1,0,0,0,
 7/03/2020,2,1,Lima,6,1,5,0,0,0,
 8/03/2020,3,1,Lima,7,6,1,0,0,0,
